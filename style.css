@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Abadi MT Condensed Light";
+}
+
+/* ------------------------------------------------------------------------------------- */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+s{
+  color: rgb(250, 250, 12);
+  font-size: 30px;
+  font-weight:bold;
+}
+header { 
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  background: rgb(0, 0, 0);
+  padding: 30px;
+}
+/* ------------------------------------------------------------------------------------------ */
+button{
+  background-color: #ffffff;
+  color: black;
+  size: 10px;
+}
+.title {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+.title:hover {
+  background-color: white;
+  color: black;
+  transition: 1.4s;
+}
+body{
+  background: rgb(0, 0, 0);
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
+.card{
+  margin: 120px;
+  border: 20px;
+  border-style: double;
+  /* border: none; */
+  color: aliceblue;
+  cursor:pointer;
+  width: 540px;
+  height: 680px;
+  /* 340-480 =-140 */
+}
+.front,.back{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+}
+.front img{
+  height: 100%;
+}
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+.back{
+  background: #070606;
+  text-align: center;
+  transform: perspective(800px) rotateY(180deg);
+}
+.back-content{
+  color: #ffffff;
+  text-align: right;
+  width: 100%;
+  font-size:xx-large;
+}
+
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+.sm{
+  margin: 10px 0;
+  align-content: center;
+}
+/* .sm a{
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
+  transition: 1s;
+  border-radius: 50%
+} */
+.sm a{
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 12px 22px;
+  border-radius: 30px;
+  transition: .4s;
+  margin: 20px;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.sm a:hover {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+/* .sm a:hover{
+  background: #000000;
+  color: white;
+} */
+/* ======================================= */
+.about {
+  width: 100%;
+  padding: 150px;
+  background-color: #191919;
+  height: auto;
+}
+.about-text {
+  width: 1000px;
+}
+b{
+  color: aqua;
+  font-size: 100px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* ================================== */
+ .button {
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: .4s;
+  font-size: 30px;
+}
+span{
+  font-size: 50px;
+  color: aqua;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+/* ================================ */
+@media screen and (max-width: 823px) {
+  .right-title::after {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 681px) {
+  .right-title::after {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .timeline {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 780px) {
+  .left-section {
+    grid-column: span 3;
+  }
+  .right-section {
+    grid-column: span 4;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .profile img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .profile img {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .name {
+    font-size: 1.5rem;
+  }
+}
