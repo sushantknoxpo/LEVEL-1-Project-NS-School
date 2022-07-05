@@ -1,6 +1,4 @@
- TRIBUTE SITE
-# LEVEL-1-Project-NS-School
-Level One project For Ns
+# TRIBUTE SITE
 -------------------------------------------------------
 here I created a tribute Webpage for "Sidhu Moose wala"
 Shubhdeep Singh Sidhu, better known by his stage name Sidhu Moose Wala, 
