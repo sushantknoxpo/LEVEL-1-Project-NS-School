@@ -44,7 +44,7 @@ https://warm-banoffee-0a6c6c.netlify.app
 
 ------------
 
-# Getting Started
+### Getting Started
 - Clone the repo.
 - Install the Go-live Extension in your VS code.
 - Click on Go-live
