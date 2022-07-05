@@ -16,13 +16,13 @@ https://www.loom.com/share/1026faf8fbf64d86991a253443ba680e
 ------------
 
 
-Host Link :🔗
+#### Host Link :🔗
 https://warm-banoffee-0a6c6c.netlify.app
 
 ------------
 
 
-##Key-Takeaways :
+##### Key-Takeaways :
 👉 HTML
 👉 CSS
 
@@ -34,7 +34,7 @@ https://warm-banoffee-0a6c6c.netlify.app
 ------------
 
 
-  ##🏠 Project Structure 🏠
+###### 🏠 Project Structure 🏠
   
 ├── index.html
 
