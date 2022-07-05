@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "Abadi MT Condensed Light";
+  /* animation: 1s ease-out 0s 1 slideInFromLeft; */
 }
 
 /* ------------------------------------------------------------------------------------- */
@@ -28,7 +29,8 @@
 
    max-width: 50%;
    margin-left: auto;
-   margin-right: auto;}
+   margin-right: auto;
+   }
   
 s{
   color: rgb(250, 250, 12);
@@ -52,6 +54,7 @@ button{
   padding: 25px;
   text-align: center;
   font-size: 10px;
+  
 }
 .title:hover {
   background-color: white;
@@ -86,7 +89,7 @@ body{
 .about {
   width: 100%;
   padding: 20px;
-  background-color: #191919;
+  background-color: #000000;
   height: 70%;
 }
 .about-text {
@@ -106,11 +109,16 @@ b{
   justify-content:center;
 }
 
-.about-text h2 {
+.about-text h3 {
   color: white;
   text-transform: capitalize;
   margin-bottom: 20px;
   text-align: center;
+}
+h2{
+  color: #ffffff;
+  text-align: center;
+  animation: 1s ease-out 0s 1 slideInFromLeft
 }
 .about-text h5 {
   color: white;
@@ -159,44 +167,3 @@ span{
   cursor: pointer;
 }
 /* ================================ */
-@media screen and (max-width: 823px) {
-  .right-title::after {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 681px) {
-  .right-title::after {
-    width: 30%;
-  }
-}
-@media screen and (max-width: 780px) {
-  .timeline {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-@media screen and (max-width: 780px) {
-  .left-section {
-    grid-column: span 3;
-  }
-  .right-section {
-    grid-column: span 4;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .main-content {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .profile img {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 700px) {
-  .profile img {
-    width: 60%;
-  }
-}
-@media screen and (max-width: 390px) {
-  .name {
-    font-size: 1.5rem;
-  }
-}
