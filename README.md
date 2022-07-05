@@ -1,28 +1,27 @@
-# TRIBUTE SITE
--------------------------------------------------------
-here I created a tribute Webpage for "Sidhu Moose wala"
-Shubhdeep Singh Sidhu, better known by his stage name Sidhu Moose Wala, 
-was an Indian singer, rapper, songwriter and actor associated with 
-Punjabi music and Punjabi cinema.
---------------------------------------------------------
-Hosted Link- : https://warm-banoffee-0a6c6c.netlify.app
-#########################################################
-some main classes I used in my projects are:
-":hover" pseudo class--->
-The :hover CSS pseudo-class matches when the user interacts with an element with a pointing device,
-but does not necessarily activate it. It is generally triggered when the user hovers
-over an element with the cursor (mouse pointer).(I used this for Title and roatating the card).
-"Button--->
-The <button> tag defines a clickable button.
+# TRIBUTE SITE - SIDHU MOOSE-WALA ❤️
 
-Inside a <button> element you can put text (and tags like <i>, <b>, <strong>, <br>, <img>, etc.).
-  That is not possible with a button created with the <input> element !
-  ------------------------------------------------------
- I tried to make it as much creatuve I can create this.
-I Experiment with a lot of new tools in it.
-  will improve in future
-Hope you Like it.
-###############################
+------------
 
+## Desription: 🤘
+
+------------
+This Webpage is the tribute to my favorite Singer & Lyricst Sidhu Moose-wala
+------------
+###Video-View : 📹
+https://www.loom.com/share/1026faf8fbf64d86991a253443ba680e
+
+###Host Link :🔗
+https://warm-banoffee-0a6c6c.netlify.app
+###Key-Takeaways :
+👉 HTML
+👉 CSS
+
+  ![image](https://user-images.githubusercontent.com/102636327/177285332-1fb2cdf0-ade6-4d85-aae2-54aa0ac33cac.png)
+  ##🏠 Project Structure 🏠
+  │   ├── components
+│   │    ├── _card.scss
+│   │    |── _formform.scss
+│   │    ├── _loader_.scss
+│   │    └── _success_.scss
 
 
