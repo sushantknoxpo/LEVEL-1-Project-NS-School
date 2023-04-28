@@ -107,6 +107,7 @@ b{
   margin:  auto;
   display: flex;
   justify-content:center;
+  overflow-x: hidden;
 }
 
 .about-text h3 {
