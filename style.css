@@ -4,6 +4,7 @@
   text-decoration: none;
   font-family: "Abadi MT Condensed Light";
   /* animation: 1s ease-out 0s 1 slideInFromLeft; */
+  overflow-x: hidden;
 }
 
 /* ------------------------------------------------------------------------------------- */
