@@ -66,8 +66,9 @@ body{
   background: rgb(0, 0, 0);
 }
 .sm{
-  margin: 10px 0;
-  align-content: center;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 .sm a{
   color: white;
@@ -78,7 +79,6 @@ body{
   border-radius: 30px;
   transition: .4s;
   margin: 20px;
-  margin-top: 20px;
   font-size: 20px;
 }
 .sm a:hover {
